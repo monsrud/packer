@@ -141,7 +141,7 @@ source "vsphere-iso" "ubuntu-18-04" {
   guest_os_type        = "ubuntu64Guest"
   host                 = var.esxi_host
   insecure_connection  = "true"
-  iso_checksum         = "sha256:8c5fc24894394035402f66f3824beb7234b757dd2b5531379cb310cedfdf0996"
+  iso_checksum         = var.iso_checksum
   iso_urls             = var.iso_urls
   network_adapters {
     network      = var.network_name
