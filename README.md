@@ -3,7 +3,7 @@ A simple example of me learning how to use packer to create vmware virtual machi
 
 Set your vcenter, esxi, datastore, network, etc information in ubuntu-18.04.auto.pkrars.hcl.
 If you change the ssh username or password, you will need to edit it to match in preseed.cfg, 
-ubuntu-18.04.auto.pkvars.hcl  and ubuntu-18.04.pkr.hcl
+ubuntu-18.04.auto.pkrvars.hcl  and ubuntu-18.04.pkr.hcl
 
 Run: packer build . 
 
