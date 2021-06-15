@@ -1,0 +1,10 @@
+vm_name = "testvm123"
+datastore = "test"
+esxi_host = ""
+network_name = "" 
+vcenter_server = ""
+vcenter_username = "Administrator@vsphere.local" 
+vcenter_password = "" 
+ssh_username = "labuser"
+ssh_password = "labuser" 
+
